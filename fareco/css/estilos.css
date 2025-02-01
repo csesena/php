@@ -1,0 +1,226 @@
+html {
+}
+
+body {
+	font-size: 0.9em;
+	font-family: 'Open Sans','Ubuntu',Verdana,Arial,Geneva,Helvetica,sans-serif;
+	color: #000000;
+	background: url('images/bgrepeat.png') repeat fixed 0 0 #FFF;
+	/*background: #CCC url('images/soft_grey_texture.jpg') repeat;*/
+	margin:0; padding:0; width:100%;
+}::selection {
+	background:#555;
+	color:#fff;
+}
+
+#supercontenedor {
+	width: 100%;
+	margin: 0 auto;
+	height: auto;
+	border-top: 8px solid #000;
+}
+
+#upcontenedor {
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	clear: both;
+}
+
+#contenedor {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 35px;
+	padding-bottom: 50px;
+}
+
+#menu {
+	border-radius: 6px;
+	height: 650px;
+	margin: 0 auto;
+	/*width: 70%;*/
+    width: 940px;
+	margin-top: 10px;
+	background: #D3D3D3;
+	box-shadow: 2px 1px 9px #888;
+}
+
+#inicio, #asistencia, #reformas, #localizacion, #profdiv {
+	margin-top: 2px;
+	border-radius: 6px;
+	height: 100%;
+	width: 95%;
+}
+
+#textomap {
+	float: left;
+	width: 40%;
+	margin-left: 5%;
+}
+
+#map_canvas {
+	margin: 0 auto;
+	border: 1px solid #474747;
+	width:90%;
+	height: 400px;
+}
+
+#menu li a {
+	font-weight: bold;
+	outline: black;
+}
+
+#contacto, #profesionales {
+	float: right;
+}
+
+#contacto a {
+	border: 1px solid black;
+	border-bottom: 1px #CCC;
+	background: #555;
+	color: white;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+#telefonos {
+	position: fixed;
+	bottom: 0;
+	margin: 0 auto;
+    width: 210px;
+	margin-top: 5px;
+	background: #474747;
+	font-size: 1.5em;
+	color: #FFFFFF;
+}
+
+#global_titulo {
+	max-width: 1050px;
+	margin-left: -1.15%;
+}
+
+#titulo {
+        font-family: 'Bitter', 'Ubuntu', Verdana, Arial;
+	font-size: 1.55em;
+	margin: 0 auto;
+	padding-top: 1.5%;
+	float: left;
+	margin-left: 3%;
+}
+
+#titulo2 {
+        font-family: 'Bitter', 'Ubuntu', Verdana, Arial;
+        font-size: 1.1em;
+	margin: 0 auto;
+        float: left;
+        margin-left: 3%;
+}
+
+h1 {
+        margin: 0;
+}
+
+h2 {
+        margin: 0;
+		color: #272764;
+}
+
+#imagelogo {
+	float: right;
+	height: 25%;
+	width: 20%;
+	margin-top: -5.5%;
+}
+
+#imagelogo img {
+	width: 100%;
+}
+
+label, input {
+	display:block;
+	font-size: 0.95em;
+}
+
+textarea.text, input.text, select {
+	margin-bottom:12px;
+	width:95%;
+	padding: .4em;
+	font-size: 0.9em;
+}
+
+select {
+	cursor: pointer;
+	color: #000000 !important;
+}
+
+textarea.text {
+	height: 50px;
+}
+
+fieldset {
+	padding:0;
+	border:0;
+	margin-top:25px;
+}
+
+h3 {
+	font-size: 1.4em;
+	margin: 0 auto;
+}
+
+a {
+	color: #0867A0 !important;
+	text-decoration: underline;
+} a:hover {
+	color: #C00 !important;
+}
+
+img {
+	border: 0px;
+}
+
+#listaservicios li {
+	padding: 2px;
+}
+
+#listaquienes li {
+	padding: 4px;
+}
+
+/*Contact Form y Jquery UI*/
+
+.ui-tooltip {
+	font-size: 0.95em;
+}
+
+.ui-widget {
+	font-family: 'Open Sans', 'Ubuntu', Verdana, Arial;
+}
+
+div#users-contain {
+	width: 350px;
+	margin: 20px 0;
+}
+
+div#users-contain table {
+	margin: 1em 0;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+div#users-contain table td, div#users-contain table th {
+	border: 1px solid #eee;
+	padding: .6em 10px;
+	text-align: left;
+}
+
+.ui-dialog .ui-state-error {
+	padding: .3em;
+}
+
+.validateTips {
+	font-size: 0.8em;
+	border: 1px solid transparent;
+	padding: 0.3em;
+}
+/*hasta aqui Contact Form y Jquery UI*/
